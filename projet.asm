@@ -40,7 +40,7 @@ code segment
        mov result, ax    ; Store the value in result
 
        inc bl            ; Increment BL
-       
+       ; th result will double word
        loop2:
          mov ax, result   ; Load the upper word of result into AX
          mov cl, t1[bx]   ; Load byte at address in BX into CL
